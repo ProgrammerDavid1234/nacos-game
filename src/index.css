@@ -1,0 +1,33 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green: #39ff14;
+  --green-dim: #1a7a00;
+  --bg: #0a0a0a;
+  --surface: #111318;
+  --surface2: #1a1d24;
+  --border: #2a2d35;
+  --text: #e8eaf0;
+  --muted: #6b7280;
+  --yellow: #fbbf24;
+  --blue: #38bdf8;
+  --orange: #fb923c;
+  --red: #ef4444;
+  --font: 'JetBrains Mono', monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+}
+
+button {
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+input {
+  font-family: var(--font);
+}
